@@ -195,6 +195,7 @@ namespace WindowsFormsApp1
             this.button1.TabIndex = 1;
             this.button1.Text = "Свободна";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -204,6 +205,7 @@ namespace WindowsFormsApp1
             this.button2.TabIndex = 2;
             this.button2.Text = "Занята";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -213,6 +215,7 @@ namespace WindowsFormsApp1
             this.button3.TabIndex = 5;
             this.button3.Text = "Занята";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -222,6 +225,7 @@ namespace WindowsFormsApp1
             this.button4.TabIndex = 4;
             this.button4.Text = "Свободна";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel3
             // 
@@ -239,7 +243,7 @@ namespace WindowsFormsApp1
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Ячейка 1";
+            this.label2.Text = "Ячейка 2";
             // 
             // button5
             // 
@@ -249,6 +253,7 @@ namespace WindowsFormsApp1
             this.button5.TabIndex = 11;
             this.button5.Text = "Занята";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -258,6 +263,7 @@ namespace WindowsFormsApp1
             this.button6.TabIndex = 10;
             this.button6.Text = "Свободна";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel4
             // 
@@ -275,7 +281,7 @@ namespace WindowsFormsApp1
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Ячейка 1";
+            this.label3.Text = "Ячейка 4";
             // 
             // button7
             // 
@@ -285,6 +291,7 @@ namespace WindowsFormsApp1
             this.button7.TabIndex = 8;
             this.button7.Text = "Занята";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -294,6 +301,7 @@ namespace WindowsFormsApp1
             this.button8.TabIndex = 7;
             this.button8.Text = "Свободна";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // panel5
             // 
@@ -311,7 +319,7 @@ namespace WindowsFormsApp1
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Ячейка 1";
+            this.label4.Text = "Ячейка 3";
             // 
             // button9
             // 
@@ -321,6 +329,7 @@ namespace WindowsFormsApp1
             this.button9.TabIndex = 17;
             this.button9.Text = "Занята";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -330,6 +339,7 @@ namespace WindowsFormsApp1
             this.button10.TabIndex = 16;
             this.button10.Text = "Свободна";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // panel6
             // 
@@ -347,7 +357,7 @@ namespace WindowsFormsApp1
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 17);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Ячейка 1";
+            this.label5.Text = "Ячейка 6";
             // 
             // button11
             // 
@@ -357,6 +367,7 @@ namespace WindowsFormsApp1
             this.button11.TabIndex = 14;
             this.button11.Text = "Занята";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -366,6 +377,7 @@ namespace WindowsFormsApp1
             this.button12.TabIndex = 13;
             this.button12.Text = "Свободна";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panel7
             // 
@@ -383,7 +395,7 @@ namespace WindowsFormsApp1
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 17);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Ячейка 1";
+            this.label6.Text = "Ячейка 5";
             // 
             // button13
             // 
@@ -393,6 +405,7 @@ namespace WindowsFormsApp1
             this.button13.TabIndex = 23;
             this.button13.Text = "Занята";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -402,6 +415,7 @@ namespace WindowsFormsApp1
             this.button14.TabIndex = 22;
             this.button14.Text = "Свободна";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // panel8
             // 
@@ -419,7 +433,7 @@ namespace WindowsFormsApp1
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 17);
             this.label7.TabIndex = 0;
-            this.label7.Text = "Ячейка 1";
+            this.label7.Text = "Ячейка 8";
             // 
             // button15
             // 
@@ -429,6 +443,7 @@ namespace WindowsFormsApp1
             this.button15.TabIndex = 20;
             this.button15.Text = "Занята";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -438,6 +453,7 @@ namespace WindowsFormsApp1
             this.button16.TabIndex = 19;
             this.button16.Text = "Свободна";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // panel9
             // 
@@ -455,7 +471,7 @@ namespace WindowsFormsApp1
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 17);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Ячейка 1";
+            this.label8.Text = "Ячейка 7";
             // 
             // button17
             // 
@@ -465,6 +481,7 @@ namespace WindowsFormsApp1
             this.button17.TabIndex = 47;
             this.button17.Text = "Занята";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -474,6 +491,7 @@ namespace WindowsFormsApp1
             this.button18.TabIndex = 46;
             this.button18.Text = "Свободна";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // panel10
             // 
@@ -489,9 +507,9 @@ namespace WindowsFormsApp1
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(85, 15);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 17);
+            this.label9.Size = new System.Drawing.Size(77, 17);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Ячейка 1";
+            this.label9.Text = "Ячейка 16";
             // 
             // button19
             // 
@@ -501,6 +519,7 @@ namespace WindowsFormsApp1
             this.button19.TabIndex = 44;
             this.button19.Text = "Занята";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -510,6 +529,7 @@ namespace WindowsFormsApp1
             this.button20.TabIndex = 43;
             this.button20.Text = "Свободна";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // panel11
             // 
@@ -525,9 +545,9 @@ namespace WindowsFormsApp1
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(85, 15);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 17);
+            this.label10.Size = new System.Drawing.Size(77, 17);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Ячейка 1";
+            this.label10.Text = "Ячейка 15";
             // 
             // button21
             // 
@@ -537,6 +557,7 @@ namespace WindowsFormsApp1
             this.button21.TabIndex = 41;
             this.button21.Text = "Занята";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -546,6 +567,7 @@ namespace WindowsFormsApp1
             this.button22.TabIndex = 40;
             this.button22.Text = "Свободна";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // panel12
             // 
@@ -561,9 +583,9 @@ namespace WindowsFormsApp1
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(85, 15);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(69, 17);
+            this.label11.Size = new System.Drawing.Size(77, 17);
             this.label11.TabIndex = 0;
-            this.label11.Text = "Ячейка 1";
+            this.label11.Text = "Ячейка 14";
             // 
             // button23
             // 
@@ -573,6 +595,7 @@ namespace WindowsFormsApp1
             this.button23.TabIndex = 38;
             this.button23.Text = "Занята";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -582,6 +605,7 @@ namespace WindowsFormsApp1
             this.button24.TabIndex = 37;
             this.button24.Text = "Свободна";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // panel13
             // 
@@ -597,9 +621,9 @@ namespace WindowsFormsApp1
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(85, 15);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 17);
+            this.label12.Size = new System.Drawing.Size(77, 17);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Ячейка 1";
+            this.label12.Text = "Ячейка 13";
             // 
             // button25
             // 
@@ -609,6 +633,7 @@ namespace WindowsFormsApp1
             this.button25.TabIndex = 35;
             this.button25.Text = "Занята";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -618,6 +643,7 @@ namespace WindowsFormsApp1
             this.button26.TabIndex = 34;
             this.button26.Text = "Свободна";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // panel14
             // 
@@ -633,9 +659,9 @@ namespace WindowsFormsApp1
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(85, 15);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 17);
+            this.label13.Size = new System.Drawing.Size(77, 17);
             this.label13.TabIndex = 0;
-            this.label13.Text = "Ячейка 1";
+            this.label13.Text = "Ячейка 12";
             // 
             // button27
             // 
@@ -654,6 +680,7 @@ namespace WindowsFormsApp1
             this.button28.TabIndex = 31;
             this.button28.Text = "Свободна";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // panel15
             // 
@@ -669,9 +696,9 @@ namespace WindowsFormsApp1
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(85, 15);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(69, 17);
+            this.label14.Size = new System.Drawing.Size(77, 17);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Ячейка 1";
+            this.label14.Text = "Ячейка 11";
             // 
             // button29
             // 
@@ -681,6 +708,7 @@ namespace WindowsFormsApp1
             this.button29.TabIndex = 29;
             this.button29.Text = "Занята";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -690,6 +718,7 @@ namespace WindowsFormsApp1
             this.button30.TabIndex = 28;
             this.button30.Text = "Свободна";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // panel16
             // 
@@ -705,9 +734,9 @@ namespace WindowsFormsApp1
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(85, 15);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(69, 17);
+            this.label15.Size = new System.Drawing.Size(77, 17);
             this.label15.TabIndex = 0;
-            this.label15.Text = "Ячейка 1";
+            this.label15.Text = "Ячейка 10";
             // 
             // button31
             // 
@@ -717,6 +746,7 @@ namespace WindowsFormsApp1
             this.button31.TabIndex = 26;
             this.button31.Text = "Занята";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -726,6 +756,7 @@ namespace WindowsFormsApp1
             this.button32.TabIndex = 25;
             this.button32.Text = "Свободна";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // panel17
             // 
@@ -743,7 +774,7 @@ namespace WindowsFormsApp1
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(69, 17);
             this.label16.TabIndex = 0;
-            this.label16.Text = "Ячейка 1";
+            this.label16.Text = "Ячейка 9";
             // 
             // Form1
             // 

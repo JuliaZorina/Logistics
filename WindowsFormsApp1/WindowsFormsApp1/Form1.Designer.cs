@@ -177,7 +177,7 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(174, 11);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(699, 483);
             this.panel1.TabIndex = 0;
@@ -185,7 +185,7 @@ namespace WindowsFormsApp1
             // button17
             // 
             this.button17.Location = new System.Drawing.Point(606, 415);
-            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(77, 39);
             this.button17.TabIndex = 47;
@@ -196,7 +196,7 @@ namespace WindowsFormsApp1
             // button18
             // 
             this.button18.Location = new System.Drawing.Point(524, 417);
-            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(77, 38);
             this.button18.TabIndex = 46;
@@ -209,7 +209,7 @@ namespace WindowsFormsApp1
             this.panel10.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel10.Controls.Add(this.label9);
             this.panel10.Location = new System.Drawing.Point(358, 416);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(162, 39);
             this.panel10.TabIndex = 45;
@@ -227,7 +227,7 @@ namespace WindowsFormsApp1
             // button19
             // 
             this.button19.Location = new System.Drawing.Point(606, 359);
-            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(77, 39);
             this.button19.TabIndex = 44;
@@ -238,7 +238,7 @@ namespace WindowsFormsApp1
             // button20
             // 
             this.button20.Location = new System.Drawing.Point(524, 361);
-            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(77, 38);
             this.button20.TabIndex = 43;
@@ -251,7 +251,7 @@ namespace WindowsFormsApp1
             this.panel11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel11.Controls.Add(this.label10);
             this.panel11.Location = new System.Drawing.Point(358, 360);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(162, 39);
             this.panel11.TabIndex = 42;
@@ -269,7 +269,7 @@ namespace WindowsFormsApp1
             // button21
             // 
             this.button21.Location = new System.Drawing.Point(606, 303);
-            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(77, 39);
             this.button21.TabIndex = 41;
@@ -280,7 +280,7 @@ namespace WindowsFormsApp1
             // button22
             // 
             this.button22.Location = new System.Drawing.Point(524, 305);
-            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(77, 38);
             this.button22.TabIndex = 40;
@@ -293,7 +293,7 @@ namespace WindowsFormsApp1
             this.panel12.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel12.Controls.Add(this.label11);
             this.panel12.Location = new System.Drawing.Point(358, 304);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(162, 39);
             this.panel12.TabIndex = 39;
@@ -311,7 +311,7 @@ namespace WindowsFormsApp1
             // button23
             // 
             this.button23.Location = new System.Drawing.Point(606, 247);
-            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(77, 39);
             this.button23.TabIndex = 38;
@@ -322,7 +322,7 @@ namespace WindowsFormsApp1
             // button24
             // 
             this.button24.Location = new System.Drawing.Point(524, 249);
-            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button24.Margin = new System.Windows.Forms.Padding(2);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(77, 38);
             this.button24.TabIndex = 37;
@@ -335,7 +335,7 @@ namespace WindowsFormsApp1
             this.panel13.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel13.Controls.Add(this.label12);
             this.panel13.Location = new System.Drawing.Point(358, 248);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(162, 39);
             this.panel13.TabIndex = 36;
@@ -353,7 +353,7 @@ namespace WindowsFormsApp1
             // button25
             // 
             this.button25.Location = new System.Drawing.Point(606, 191);
-            this.button25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(77, 39);
             this.button25.TabIndex = 35;
@@ -364,7 +364,7 @@ namespace WindowsFormsApp1
             // button26
             // 
             this.button26.Location = new System.Drawing.Point(524, 193);
-            this.button26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button26.Margin = new System.Windows.Forms.Padding(2);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(77, 38);
             this.button26.TabIndex = 34;
@@ -377,7 +377,7 @@ namespace WindowsFormsApp1
             this.panel14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel14.Controls.Add(this.label13);
             this.panel14.Location = new System.Drawing.Point(358, 192);
-            this.panel14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(162, 39);
             this.panel14.TabIndex = 33;
@@ -395,7 +395,7 @@ namespace WindowsFormsApp1
             // button27
             // 
             this.button27.Location = new System.Drawing.Point(606, 135);
-            this.button27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button27.Margin = new System.Windows.Forms.Padding(2);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(77, 39);
             this.button27.TabIndex = 32;
@@ -406,7 +406,7 @@ namespace WindowsFormsApp1
             // button28
             // 
             this.button28.Location = new System.Drawing.Point(524, 136);
-            this.button28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button28.Margin = new System.Windows.Forms.Padding(2);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(77, 38);
             this.button28.TabIndex = 31;
@@ -419,7 +419,7 @@ namespace WindowsFormsApp1
             this.panel15.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel15.Controls.Add(this.label14);
             this.panel15.Location = new System.Drawing.Point(358, 136);
-            this.panel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel15.Margin = new System.Windows.Forms.Padding(2);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(162, 39);
             this.panel15.TabIndex = 30;
@@ -437,7 +437,7 @@ namespace WindowsFormsApp1
             // button29
             // 
             this.button29.Location = new System.Drawing.Point(606, 79);
-            this.button29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button29.Margin = new System.Windows.Forms.Padding(2);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(77, 39);
             this.button29.TabIndex = 29;
@@ -448,7 +448,7 @@ namespace WindowsFormsApp1
             // button30
             // 
             this.button30.Location = new System.Drawing.Point(524, 80);
-            this.button30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button30.Margin = new System.Windows.Forms.Padding(2);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(77, 38);
             this.button30.TabIndex = 28;
@@ -461,7 +461,7 @@ namespace WindowsFormsApp1
             this.panel16.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel16.Controls.Add(this.label15);
             this.panel16.Location = new System.Drawing.Point(358, 80);
-            this.panel16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel16.Margin = new System.Windows.Forms.Padding(2);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(162, 39);
             this.panel16.TabIndex = 27;
@@ -479,7 +479,7 @@ namespace WindowsFormsApp1
             // button31
             // 
             this.button31.Location = new System.Drawing.Point(606, 23);
-            this.button31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button31.Margin = new System.Windows.Forms.Padding(2);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(77, 39);
             this.button31.TabIndex = 26;
@@ -490,7 +490,7 @@ namespace WindowsFormsApp1
             // button32
             // 
             this.button32.Location = new System.Drawing.Point(524, 24);
-            this.button32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button32.Margin = new System.Windows.Forms.Padding(2);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(77, 38);
             this.button32.TabIndex = 25;
@@ -503,7 +503,7 @@ namespace WindowsFormsApp1
             this.panel17.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel17.Controls.Add(this.label16);
             this.panel17.Location = new System.Drawing.Point(358, 24);
-            this.panel17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(162, 39);
             this.panel17.TabIndex = 24;
@@ -521,7 +521,7 @@ namespace WindowsFormsApp1
             // button13
             // 
             this.button13.Location = new System.Drawing.Point(264, 416);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(77, 39);
             this.button13.TabIndex = 23;
@@ -532,7 +532,7 @@ namespace WindowsFormsApp1
             // button14
             // 
             this.button14.Location = new System.Drawing.Point(182, 418);
-            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(77, 38);
             this.button14.TabIndex = 22;
@@ -545,7 +545,7 @@ namespace WindowsFormsApp1
             this.panel8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel8.Controls.Add(this.label7);
             this.panel8.Location = new System.Drawing.Point(16, 417);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(162, 39);
             this.panel8.TabIndex = 21;
@@ -563,7 +563,7 @@ namespace WindowsFormsApp1
             // button15
             // 
             this.button15.Location = new System.Drawing.Point(264, 360);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(77, 39);
             this.button15.TabIndex = 20;
@@ -574,7 +574,7 @@ namespace WindowsFormsApp1
             // button16
             // 
             this.button16.Location = new System.Drawing.Point(182, 362);
-            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(77, 38);
             this.button16.TabIndex = 19;
@@ -587,7 +587,7 @@ namespace WindowsFormsApp1
             this.panel9.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel9.Controls.Add(this.label8);
             this.panel9.Location = new System.Drawing.Point(16, 361);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(162, 39);
             this.panel9.TabIndex = 18;
@@ -605,7 +605,7 @@ namespace WindowsFormsApp1
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(264, 304);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(77, 39);
             this.button9.TabIndex = 17;
@@ -616,7 +616,7 @@ namespace WindowsFormsApp1
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(182, 306);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(77, 38);
             this.button10.TabIndex = 16;
@@ -629,7 +629,7 @@ namespace WindowsFormsApp1
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel6.Controls.Add(this.label5);
             this.panel6.Location = new System.Drawing.Point(16, 305);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(162, 39);
             this.panel6.TabIndex = 15;
@@ -647,7 +647,7 @@ namespace WindowsFormsApp1
             // button11
             // 
             this.button11.Location = new System.Drawing.Point(264, 248);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(77, 39);
             this.button11.TabIndex = 14;
@@ -658,7 +658,7 @@ namespace WindowsFormsApp1
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(182, 249);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(77, 38);
             this.button12.TabIndex = 13;
@@ -671,7 +671,7 @@ namespace WindowsFormsApp1
             this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel7.Controls.Add(this.label6);
             this.panel7.Location = new System.Drawing.Point(16, 249);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(162, 39);
             this.panel7.TabIndex = 12;
@@ -689,7 +689,7 @@ namespace WindowsFormsApp1
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(264, 192);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(77, 39);
             this.button5.TabIndex = 11;
@@ -700,7 +700,7 @@ namespace WindowsFormsApp1
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(182, 193);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(77, 38);
             this.button6.TabIndex = 10;
@@ -713,7 +713,7 @@ namespace WindowsFormsApp1
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(16, 193);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(162, 39);
             this.panel4.TabIndex = 9;
@@ -731,7 +731,7 @@ namespace WindowsFormsApp1
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(264, 136);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(77, 39);
             this.button7.TabIndex = 8;
@@ -742,7 +742,7 @@ namespace WindowsFormsApp1
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(182, 137);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(77, 38);
             this.button8.TabIndex = 7;
@@ -755,7 +755,7 @@ namespace WindowsFormsApp1
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(16, 136);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(162, 39);
             this.panel5.TabIndex = 6;
@@ -773,7 +773,7 @@ namespace WindowsFormsApp1
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(264, 80);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 39);
             this.button3.TabIndex = 5;
@@ -784,7 +784,7 @@ namespace WindowsFormsApp1
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(182, 81);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 38);
             this.button4.TabIndex = 4;
@@ -797,7 +797,7 @@ namespace WindowsFormsApp1
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(16, 80);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(162, 39);
             this.panel3.TabIndex = 3;
@@ -815,7 +815,7 @@ namespace WindowsFormsApp1
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(264, 24);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 39);
             this.button2.TabIndex = 2;
@@ -826,7 +826,7 @@ namespace WindowsFormsApp1
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(182, 25);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 38);
             this.button1.TabIndex = 1;
@@ -839,7 +839,7 @@ namespace WindowsFormsApp1
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(16, 24);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(162, 39);
             this.panel2.TabIndex = 0;
@@ -865,6 +865,7 @@ namespace WindowsFormsApp1
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(162, 39);
             this.panel18.TabIndex = 1;
+            this.panel18.Paint += new System.Windows.Forms.PaintEventHandler(this.panel18_Paint);
             // 
             // label17
             // 
@@ -886,6 +887,7 @@ namespace WindowsFormsApp1
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(162, 39);
             this.panel19.TabIndex = 2;
+            this.panel19.Paint += new System.Windows.Forms.PaintEventHandler(this.panel19_Paint);
             // 
             // label18
             // 
@@ -908,6 +910,7 @@ namespace WindowsFormsApp1
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(162, 39);
             this.panel20.TabIndex = 2;
+            this.panel20.Paint += new System.Windows.Forms.PaintEventHandler(this.panel20_Paint);
             // 
             // label19
             // 
@@ -930,6 +933,7 @@ namespace WindowsFormsApp1
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(162, 39);
             this.panel21.TabIndex = 2;
+            this.panel21.Paint += new System.Windows.Forms.PaintEventHandler(this.panel21_Paint);
             // 
             // label20
             // 
@@ -951,7 +955,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.panel19);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Грузовое пространство";
             this.panel1.ResumeLayout(false);

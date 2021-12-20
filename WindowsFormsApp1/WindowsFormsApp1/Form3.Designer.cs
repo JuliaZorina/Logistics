@@ -52,6 +52,7 @@
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(162, 39);
             this.panel21.TabIndex = 4;
+            this.panel21.Paint += new System.Windows.Forms.PaintEventHandler(this.panel21_Paint);
             // 
             // label20
             // 
@@ -83,6 +84,7 @@
             this.label19.Size = new System.Drawing.Size(127, 13);
             this.label19.TabIndex = 0;
             this.label19.Text = "Грузовое пространство";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // panel19
             // 
@@ -94,6 +96,7 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(162, 39);
             this.panel19.TabIndex = 6;
+            this.panel19.Paint += new System.Windows.Forms.PaintEventHandler(this.panel19_Paint);
             // 
             // label18
             // 
@@ -116,6 +119,7 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(162, 39);
             this.panel18.TabIndex = 3;
+            this.panel18.Paint += new System.Windows.Forms.PaintEventHandler(this.panel18_Paint);
             // 
             // label17
             // 

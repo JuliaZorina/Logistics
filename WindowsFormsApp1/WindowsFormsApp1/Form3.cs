@@ -16,5 +16,25 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void panel18_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel19_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel21_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -36,5 +36,31 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            button33.BackColor = Color.Gray;
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
     }
 }

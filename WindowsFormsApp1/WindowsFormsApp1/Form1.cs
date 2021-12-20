@@ -221,12 +221,14 @@ namespace WindowsFormsApp1
 
         private void panel18_Paint(object sender, PaintEventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
 
         private void panel19_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void panel20_Paint(object sender, PaintEventArgs e)
@@ -237,6 +239,32 @@ namespace WindowsFormsApp1
         private void panel21_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            button35.BackColor = Color.Gray;
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
         }
     }
 }

@@ -28,141 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.panel21.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel18.SuspendLayout();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // panel21
+            // button36
             // 
-            this.panel21.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel21.Controls.Add(this.label20);
-            this.panel21.Location = new System.Drawing.Point(11, 140);
-            this.panel21.Margin = new System.Windows.Forms.Padding(2);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(162, 39);
-            this.panel21.TabIndex = 4;
-            this.panel21.Paint += new System.Windows.Forms.PaintEventHandler(this.panel21_Paint);
+            this.button36.Location = new System.Drawing.Point(12, 159);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(148, 42);
+            this.button36.TabIndex = 8;
+            this.button36.Text = "Заказы";
+            this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
-            // label20
+            // button35
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(53, 13);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(46, 13);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Заказы";
+            this.button35.Location = new System.Drawing.Point(12, 108);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(148, 42);
+            this.button35.TabIndex = 7;
+            this.button35.Text = "Грузовое пространство";
+            this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
-            // panel20
+            // button34
             // 
-            this.panel20.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.label19);
-            this.panel20.Location = new System.Drawing.Point(11, 97);
-            this.panel20.Margin = new System.Windows.Forms.Padding(2);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(162, 39);
-            this.panel20.TabIndex = 5;
-            this.panel20.Paint += new System.Windows.Forms.PaintEventHandler(this.panel20_Paint);
+            this.button34.Location = new System.Drawing.Point(12, 60);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(148, 42);
+            this.button34.TabIndex = 6;
+            this.button34.Text = "Маршрут";
+            this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
-            // label19
+            // button33
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(21, 14);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(127, 13);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Грузовое пространство";
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.label18);
-            this.panel19.Location = new System.Drawing.Point(11, 54);
-            this.panel19.Margin = new System.Windows.Forms.Padding(2);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(162, 39);
-            this.panel19.TabIndex = 6;
-            this.panel19.Paint += new System.Windows.Forms.PaintEventHandler(this.panel19_Paint);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(56, 12);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 13);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Маршрут";
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel18.Controls.Add(this.label17);
-            this.panel18.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel18.Location = new System.Drawing.Point(11, 11);
-            this.panel18.Margin = new System.Windows.Forms.Padding(2);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(162, 39);
-            this.panel18.TabIndex = 3;
-            this.panel18.Paint += new System.Windows.Forms.PaintEventHandler(this.panel18_Paint);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(64, 11);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(44, 13);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Заявки";
+            this.button33.Location = new System.Drawing.Point(12, 12);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(148, 42);
+            this.button33.TabIndex = 5;
+            this.button33.Text = "Заявки";
+            this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel21);
-            this.Controls.Add(this.panel20);
-            this.Controls.Add(this.panel19);
-            this.Controls.Add(this.panel18);
+            this.Controls.Add(this.button36);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button34);
+            this.Controls.Add(this.button33);
             this.Name = "Form4";
             this.Text = "Заказы";
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button33;
     }
 }

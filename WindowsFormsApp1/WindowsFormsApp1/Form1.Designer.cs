@@ -671,6 +671,7 @@ namespace WindowsFormsApp1
             this.button27.TabIndex = 32;
             this.button27.Text = "Занята";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 

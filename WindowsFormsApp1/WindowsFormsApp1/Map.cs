@@ -13,7 +13,6 @@ namespace WindowsFormsApp1
 {
     public partial class Map : Form
     {
-        WebBrowser w = new WebBrowser();
 
         public Map()
         {
@@ -49,19 +48,16 @@ namespace WindowsFormsApp1
 
         private void wb_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            WebBrowser wb = sender as WebBrowser;
+            
 
         }
 
         private void Map_Load(object sender, EventArgs e)
         {
+            var curDir = Directory.GetCurrentDirectory();
+            wb.Url = new Uri(String.Format("file:///{0}/2GIS.html", curDir));
+            
 
-            WebBrowser wb = new WebBrowser();
-            wb.AllowNavigation = true;
-
-            wb.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(wb_DocumentCompleted);
-
-            wb.Navigate("http://www.google.com");
         }
     }
 }

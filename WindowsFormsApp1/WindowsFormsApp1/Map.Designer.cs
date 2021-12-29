@@ -32,7 +32,7 @@
             this.button35 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.wb = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // button36
@@ -78,21 +78,22 @@
             this.button33.UseVisualStyleBackColor = true;
             this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
-            // webBrowser1
+            // wb
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(257, 26);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(786, 502);
-            this.webBrowser1.TabIndex = 9;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.wb_DocumentCompleted);
+            this.wb.Location = new System.Drawing.Point(257, 26);
+            this.wb.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wb.Name = "wb";
+            this.wb.Size = new System.Drawing.Size(786, 502);
+            this.wb.TabIndex = 9;
+            this.wb.Url = new System.Uri("", System.UriKind.Relative);
+            this.wb.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.wb_DocumentCompleted);
             // 
             // Map
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.wb);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
             this.Controls.Add(this.button34);
@@ -101,6 +102,7 @@
             this.Name = "Map";
             this.Text = "Маршрут";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Map_FormClosing);
+            this.Load += new System.EventHandler(this.Map_Load);
             this.ResumeLayout(false);
 
         }
@@ -111,6 +113,6 @@
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.WebBrowser wb;
     }
 }

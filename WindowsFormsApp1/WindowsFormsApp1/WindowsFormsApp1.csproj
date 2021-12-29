@@ -108,7 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2GIS.html" />
-    <Content Include="HTMLPage1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

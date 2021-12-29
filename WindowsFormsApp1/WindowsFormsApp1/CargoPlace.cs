@@ -209,36 +209,11 @@ namespace WindowsFormsApp1
             button18.BackColor = Color.White;
         }
 
-        private void label19_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label18_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void panel18_Paint(object sender, PaintEventArgs e)
         {
             Application form2 = new Application();
             form2.Show();
             this.Hide();
-        }
-
-        private void panel19_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
-        private void panel20_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel21_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void button33_Click(object sender, EventArgs e)
@@ -255,16 +230,16 @@ namespace WindowsFormsApp1
             this.Hide();
         }
 
-        private void button35_Click(object sender, EventArgs e)
-        {
-            button35.BackColor = Color.Gray;
-        }
-
         private void button36_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Orders form4 = new Orders();
             form4.Show();
             this.Hide();
+        }
+
+        private void CargoPlace_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
     }
 }

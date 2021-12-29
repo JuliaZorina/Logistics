@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form3
+    partial class Map
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@
             // button36
             // 
             this.button36.Location = new System.Drawing.Point(16, 196);
-            this.button36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button36.Margin = new System.Windows.Forms.Padding(4);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(197, 52);
             this.button36.TabIndex = 8;
@@ -49,7 +49,7 @@
             // button35
             // 
             this.button35.Location = new System.Drawing.Point(16, 133);
-            this.button35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button35.Margin = new System.Windows.Forms.Padding(4);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(197, 52);
             this.button35.TabIndex = 7;
@@ -60,18 +60,17 @@
             // button34
             // 
             this.button34.Location = new System.Drawing.Point(16, 74);
-            this.button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button34.Margin = new System.Windows.Forms.Padding(4);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(197, 52);
             this.button34.TabIndex = 6;
             this.button34.Text = "Маршрут";
             this.button34.UseVisualStyleBackColor = true;
-            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // button33
             // 
             this.button33.Location = new System.Drawing.Point(16, 15);
-            this.button33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button33.Margin = new System.Windows.Forms.Padding(4);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(197, 52);
             this.button33.TabIndex = 5;
@@ -86,8 +85,9 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(786, 502);
             this.webBrowser1.TabIndex = 9;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.wb_DocumentCompleted);
             // 
-            // Form3
+            // Map
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,9 +97,10 @@
             this.Controls.Add(this.button35);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form3";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Map";
             this.Text = "Маршрут";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Map_FormClosing);
             this.ResumeLayout(false);
 
         }

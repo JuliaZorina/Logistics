@@ -17,31 +17,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void panel18_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel19_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel20_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel21_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-            button33.BackColor = Color.Gray;
-        }
-
         private void button35_Click(object sender, EventArgs e)
         {
             CargoPlace form1 = new CargoPlace();
@@ -58,9 +33,14 @@ namespace WindowsFormsApp1
 
         private void button36_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Orders form4 = new Orders();
             form4.Show();
             this.Hide();
+        }
+
+        private void Application_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
     }
 }

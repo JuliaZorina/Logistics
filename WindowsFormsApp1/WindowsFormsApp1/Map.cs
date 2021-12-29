@@ -11,38 +11,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class Map : Form
     {
-        public Form3()
+        WebBrowser w = new WebBrowser();
+
+        public Map()
         {
             InitializeComponent();
         }
 
-        private void panel18_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel19_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel21_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button34_Click(object sender, EventArgs e)
-        {
-            button35.BackColor = Color.Gray;
-        }
-
+       
         private void button35_Click(object sender, EventArgs e)
         {
             CargoPlace form1 = new CargoPlace();
@@ -59,15 +37,31 @@ namespace WindowsFormsApp1
 
         private void button36_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Orders form4 = new Orders();
             form4.Show();
             this.Hide();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Map_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var curDir = Directory.GetCurrentDirectory();
-            webBrowser1.Url = new Uri(String.Format("file:///{0}/2GIS.html", curDir));
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+        }
+
+        private void wb_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            WebBrowser wb = sender as WebBrowser;
+
+        }
+
+        private void Map_Load(object sender, EventArgs e)
+        {
+
+            WebBrowser wb = new WebBrowser();
+            wb.AllowNavigation = true;
+
+            wb.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(wb_DocumentCompleted);
+
+            wb.Navigate("http://www.google.com");
         }
     }
 }

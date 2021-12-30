@@ -31,9 +31,9 @@ namespace LogisticProgram
                 MessageBox.Show($"Стоимость вашей доставки: {Math.Round(weigth, 2)} рублей.");
 
                 string connectString = "server=localhost;user id=root;database=persons;persistsecurityinfo=True;password=root";
-                string insertDataQuery = "INSERT INTO orders (oName,oWeigth,oAddress,oLength,oWidth,oHeigth,oCost,oPersonID) values ('" + this.nameTextBox.Text + "'," +
+                string insertDataQuery = "INSERT INTO orders (oName,oWeigth,oAddress,oLength,oWidth,oHeigth,oCost,oPersonID,oStatus) values ('" + this.nameTextBox.Text + "'," +
                     "'" + this.weightTextBox.Text + "','" + this.addressTextBox.Text + "','" + this.lengthTextBox.Text + "','" + this.widthTextBox.Text + "'," +
-                    "'" + this.heigthTextBox.Text + "','" + Math.Round(weigth, 2) + "','" + LoginForm.id + "')";
+                    "'" + this.heigthTextBox.Text + "','" + Math.Round(weigth, 2) + "','" + LoginForm.id + "','" + "Заказ обрабатывается" + "')";
                 MySqlConnection conn = new MySqlConnection(connectString);
                 MySqlCommand cmd = new MySqlCommand(insertDataQuery, conn);
                 MySqlDataReader dataReader;

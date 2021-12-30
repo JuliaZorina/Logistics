@@ -17,8 +17,6 @@ namespace LogisticProgram
         public MyOrders()
         {
             InitializeComponent();
-            
-            
         }
 
         private void toCreateOrderForm_Click(object sender, EventArgs e)
@@ -28,8 +26,15 @@ namespace LogisticProgram
             this.Hide();
         }
 
+        int index = 1;
         private void refreshOrders_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < panel1.Controls.Count; i++)
+            {
+                panel1.Controls[i].Enabled = false;
+                panel1.Controls[i].Dispose();
+                i--;
+            }
             string conString = "server=localhost;user id=root;database=persons;persistsecurityinfo=True;password=root";
             string orderQuery = "SELECT * FROM orders WHERE oPersonID= '" + LoginForm.id + "'";
             MySqlConnection conn = new MySqlConnection(conString);
@@ -44,26 +49,32 @@ namespace LogisticProgram
                 while (reader.Read())
                 {
                     TextBox newOrder = new TextBox();
-                    conn.Open();
-                    string bufer = cmd.ExecuteScalar().ToString();
-                    conn.Close();
+                    newOrder.Multiline = true;
+                    string bufer = "Имя заказа: " + reader["oName"].ToString() + "; Адрес: " + reader["oAddress"].ToString() + 
+                        "; Стоимость заказа: " + reader["oCost"].ToString() + " рублей;" + " Статус заказа: " + reader["oStatus"].ToString();
                     newOrder.Text = bufer;
                     newOrder.ReadOnly = true;
-                    newOrder.Width = 600;
+                    newOrder.Width = 700;
                     newOrder.Height = 30;
-                    newOrder.Location = new Point(oldbbox.Location.X, oldbbox.Location.Y + oldbbox.Height + 10);
-                    this.Controls.Add(newOrder);
+                    if (index > 1)
+                    {
+                        newOrder.Location = new Point(oldbbox.Location.X, oldbbox.Location.Y + oldbbox.Height + 15);
+                    }
+                    else
+                    {
+                        newOrder.Location = new Point(19, 12);
+                    }
+                    panel1.Controls.Add(newOrder);
                     oldbbox = newOrder;
+                    index++;
                 }
                 conn.Close();
-
+                index = 1;
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Unable to Get the Values due to" + ex);
-            }
-
-            
+            }  
         }
     }
 }

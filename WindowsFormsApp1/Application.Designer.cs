@@ -32,10 +32,8 @@
             this.button35 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.myOrdersTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button36
@@ -81,25 +79,6 @@
             this.button1.Text = "Обновить ленту";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(220, 17);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(198, 50);
-            this.panel1.TabIndex = 12;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(57, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Заявки:";
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -108,13 +87,27 @@
             this.panel2.Size = new System.Drawing.Size(835, 464);
             this.panel2.TabIndex = 13;
             // 
+            // myOrdersTextBox
+            // 
+            this.myOrdersTextBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.myOrdersTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.myOrdersTextBox.Location = new System.Drawing.Point(221, 13);
+            this.myOrdersTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.myOrdersTextBox.Multiline = true;
+            this.myOrdersTextBox.Name = "myOrdersTextBox";
+            this.myOrdersTextBox.ReadOnly = true;
+            this.myOrdersTextBox.Size = new System.Drawing.Size(196, 51);
+            this.myOrdersTextBox.TabIndex = 12;
+            this.myOrdersTextBox.Text = "Заявки:";
+            this.myOrdersTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Application
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.myOrdersTextBox);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
@@ -122,10 +115,8 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Application";
             this.Text = "Заявки";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Application_FormClosing);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -135,8 +126,7 @@
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox myOrdersTextBox;
     }
 }

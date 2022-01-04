@@ -223,13 +223,7 @@ namespace WindowsFormsApp1
             this.Hide();
         }
 
-        private void button34_Click(object sender, EventArgs e)
-        {
-            Map form3 = new Map();
-            form3.Show();
-            this.Hide();
-        }
-
+        
         private void button36_Click(object sender, EventArgs e)
         {
             Orders form4 = new Orders();

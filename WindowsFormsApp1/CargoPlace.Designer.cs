@@ -95,7 +95,6 @@ namespace WindowsFormsApp1
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -833,7 +832,7 @@ namespace WindowsFormsApp1
             // button33
             // 
             this.button33.Location = new System.Drawing.Point(16, 15);
-            this.button33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button33.Margin = new System.Windows.Forms.Padding(4);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(197, 52);
             this.button33.TabIndex = 1;
@@ -841,21 +840,10 @@ namespace WindowsFormsApp1
             this.button33.UseVisualStyleBackColor = true;
             this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(16, 74);
-            this.button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(197, 52);
-            this.button34.TabIndex = 2;
-            this.button34.Text = "Маршрут";
-            this.button34.UseVisualStyleBackColor = true;
-            this.button34.Click += new System.EventHandler(this.button34_Click);
-            // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(16, 133);
-            this.button35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button35.Location = new System.Drawing.Point(13, 75);
+            this.button35.Margin = new System.Windows.Forms.Padding(4);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(197, 52);
             this.button35.TabIndex = 3;
@@ -864,8 +852,8 @@ namespace WindowsFormsApp1
             // 
             // button36
             // 
-            this.button36.Location = new System.Drawing.Point(16, 196);
-            this.button36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button36.Location = new System.Drawing.Point(13, 135);
+            this.button36.Margin = new System.Windows.Forms.Padding(4);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(197, 52);
             this.button36.TabIndex = 4;
@@ -880,7 +868,6 @@ namespace WindowsFormsApp1
             this.ClientSize = new System.Drawing.Size(1180, 619);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
-            this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -992,7 +979,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
     }

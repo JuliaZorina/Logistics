@@ -33,9 +33,15 @@ namespace WindowsFormsApp1
             this.Hide();
         }
 
+        private void Application_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+        }
+
         int index = 1;
         List<string> idList = new List<string>();
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             for (int i = 0; i < panel2.Controls.Count; i++)
             {
@@ -103,6 +109,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Unable to Get the Values due to" + ex);
             }
+
         }
 
         private void acceptButtonOnClick(object sender, EventArgs eventArgs)
@@ -149,6 +156,11 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("The order was not rejected." + ex);
             }
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            button33.BackColor = Color.Gray;
         }
     }
 }

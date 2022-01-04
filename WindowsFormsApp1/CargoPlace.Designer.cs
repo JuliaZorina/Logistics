@@ -849,6 +849,7 @@ namespace WindowsFormsApp1
             this.button35.TabIndex = 3;
             this.button35.Text = "Грузовое пространство";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // button36
             // 

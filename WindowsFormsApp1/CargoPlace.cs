@@ -235,5 +235,10 @@ namespace WindowsFormsApp1
         {
             System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            button35.BackColor = Color.Gray;
+        }
     }
 }

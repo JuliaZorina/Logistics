@@ -67,6 +67,7 @@
             this.button33.TabIndex = 5;
             this.button33.Text = "Заявки";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button1
             // 
@@ -78,6 +79,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Обновить ленту";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel2
             // 

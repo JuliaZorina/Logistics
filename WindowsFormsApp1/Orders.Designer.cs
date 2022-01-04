@@ -32,10 +32,8 @@
             this.button35 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.myOrdersTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button36
@@ -47,6 +45,7 @@
             this.button36.TabIndex = 8;
             this.button36.Text = "Заказы";
             this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // button35
             // 
@@ -80,41 +79,36 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Обновить ленту";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // panel1
+            // panel3
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(220, 15);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(198, 50);
-            this.panel1.TabIndex = 11;
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel3.Location = new System.Drawing.Point(220, 75);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(835, 464);
+            this.panel3.TabIndex = 14;
             // 
-            // label1
+            // myOrdersTextBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(57, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Заказы:";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Location = new System.Drawing.Point(220, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(835, 464);
-            this.panel2.TabIndex = 14;
+            this.myOrdersTextBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.myOrdersTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.myOrdersTextBox.Location = new System.Drawing.Point(220, 16);
+            this.myOrdersTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.myOrdersTextBox.Multiline = true;
+            this.myOrdersTextBox.Name = "myOrdersTextBox";
+            this.myOrdersTextBox.Size = new System.Drawing.Size(196, 51);
+            this.myOrdersTextBox.TabIndex = 15;
+            this.myOrdersTextBox.Text = "Заказы:";
+            this.myOrdersTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.myOrdersTextBox);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
@@ -122,10 +116,8 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Orders";
             this.Text = "Заказы";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Orders_FormClosing);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -135,8 +127,7 @@
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox myOrdersTextBox;
     }
 }

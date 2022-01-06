@@ -45,7 +45,6 @@
             this.button36.TabIndex = 8;
             this.button36.Text = "Заказы";
             this.button36.UseVisualStyleBackColor = true;
-            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // button35
             // 

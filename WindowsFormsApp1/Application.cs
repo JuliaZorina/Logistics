@@ -1,12 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -25,17 +20,11 @@ namespace WindowsFormsApp1
             this.Hide();
         }
 
-
         private void button36_Click(object sender, EventArgs e)
         {
             Orders form4 = new Orders();
             form4.Show();
             this.Hide();
-        }
-
-        private void Application_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
 
         int index = 1;
@@ -158,10 +147,5 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void button33_Click(object sender, EventArgs e)
-        {
-            button33.BackColor = Color.Gray;
-        }
     }
 }
-

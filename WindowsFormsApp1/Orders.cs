@@ -1,12 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -30,16 +25,6 @@ namespace WindowsFormsApp1
             CargoPlace form1 = new CargoPlace();
             form1.Show();
             this.Hide();
-        }
-
-        private void button36_Click(object sender, EventArgs e)
-        {
-            button36.BackColor = Color.Gray;
-        }
-
-        private void Orders_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
 
         int index = 1;
@@ -198,6 +183,5 @@ namespace WindowsFormsApp1
             }
         }
 
-        
     }
 }

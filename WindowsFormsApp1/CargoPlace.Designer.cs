@@ -849,7 +849,6 @@ namespace WindowsFormsApp1
             this.button35.TabIndex = 3;
             this.button35.Text = "Грузовое пространство";
             this.button35.UseVisualStyleBackColor = true;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // button36
             // 
@@ -874,7 +873,6 @@ namespace WindowsFormsApp1
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CargoPlace";
             this.Text = "Грузовое пространство";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CargoPlace_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();

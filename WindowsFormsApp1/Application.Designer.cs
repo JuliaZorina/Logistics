@@ -67,7 +67,6 @@
             this.button33.TabIndex = 5;
             this.button33.Text = "Заявки";
             this.button33.UseVisualStyleBackColor = true;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button1
             // 

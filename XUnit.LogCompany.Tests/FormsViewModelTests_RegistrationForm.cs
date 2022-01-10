@@ -62,7 +62,62 @@ namespace XUnit.LogCompany.Tests
             Assert.Throws<ArgumentException>("HeigthTextBox", () => vm.GetHeigth());
         }
 
-        
+        //largeValueException
+        [Fact(DisplayName = "Занесение большого значения в поле имени при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInNameTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.NameTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("NameTextBox", () => vm.GetName());
+        }
+
+        [Fact(DisplayName = "Занесение большого значения в поле веса при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInWeightTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.WeightTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("WeightTextBox", () => vm.GetWeight());
+        }
+
+        [Fact(DisplayName = "Занесение большого значения в поле адреса при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInAddressTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.AddressTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("AddressTextBox", () => vm.GetAddress());
+        }
+
+        [Fact(DisplayName = "Занесение большого значения в поле длины при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInLengthTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.LengthTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("LengthTextBox", () => vm.GetLength());
+        }
+
+        [Fact(DisplayName = "Занесение большого значения в поле ширины при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInWidthTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.WidthTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("WidthTextBox", () => vm.GetWidth());
+        }
+
+        [Fact(DisplayName = "Занесение большого значения в поле высоты при создании заказа выбрасывает exception")]
+        public void ViewModel_LargeValueInHeigthTextBox_ThrowsException()
+        {
+            var vm = new FormsViewModel_CreateOrderForm();
+            vm.HeigthTextBox = "111110000011111000001111100000111110000011111000001111100000";
+
+            Assert.Throws<ArgumentException>("HeigthTextBox", () => vm.GetHeigth());
+        }
+
+
     }
 
 }
